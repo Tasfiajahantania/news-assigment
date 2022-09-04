@@ -1,0 +1,159 @@
+/* color varibale init  */
+:root {
+    --blue-color: #5D5FEF !important;
+}
+
+
+/* body  */
+
+body {
+    background: #F6F6F7 !important;
+    font-family: 'Roboto';
+}
+
+
+
+.right-move {
+    right: 60px !important;
+}
+
+.logo {
+    width: 103px;
+    height: 21px;
+}
+
+.logo .box {
+    width: 56px;
+    height: 37px;
+    background-color: var(--blue-color);
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #F8F8F8;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.logo .text {
+    font-size: 16px;
+    color: var(--blue-color);
+    line-height: 36px;
+    left: 10px;
+    font-weight: 600;
+}
+
+
+.active-link {
+    color: var(--blue-color) !important;
+    font-weight: 700;
+}
+
+.active-link::before {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 2px;
+    background: var(--blue-color);
+    left: 29px;
+    top: 34px;
+}
+
+.nav-item {
+    margin: 0 10px !important;
+}
+
+.menu {
+    margin-bottom: 70px !important;
+}
+
+.menu .nav-menu {
+    list-style: none;
+    position: absolute;
+    left: 8px;
+}
+
+.menu .nav-menu .nav-menu-item {
+    color: #858585;
+    margin: 0px 20px;
+}
+
+.nav-menu-item:active {
+    position: relative;
+    /* width: 134px; */
+    height: 31px;
+    color: #5D5FEF !important;
+    background: #EEEFFF;
+    border-radius: 5px;
+    padding: 3px 16px;
+}
+
+.result {
+    width: 100%;
+    height: 63px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+.sort .select-type {
+    width: 143px;
+    border: none !important;
+    color: #ABADC6;
+}
+
+.sort-button .btn-blue {
+    background-color: var(--blue-color) !important;
+}
+
+.news-item {
+    border: none !important;
+}
+
+.news-title {
+    color: #121221b8 !important;
+    font-weight: 600 !important;
+    line-height: 131% !important;
+
+}
+
+.news-description {
+    color: #949494;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.author .details {
+    left: 50px;
+    top: 0;
+    font-size: 13px;
+    line-height: 11px;
+}
+
+.author .details .name {
+    color: #2B2C34;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+
+.avatar img {
+    border-radius: 50%;
+    max-width: 25px;
+}
+
+.total-view {
+    top: 3px;
+    right: 60px;
+}
+
+.total-view .icon {
+    font-size: 18px;
+}
+
+.right-arrow {
+    top: 10px;
+    right: 0;
+    color: var(--blue-color);
+}
