@@ -77,14 +77,11 @@ body {
     margin: 0px 20px;
 }
 
-.nav-menu-item:active {
-    position: relative;
-    /* width: 134px; */
-    height: 31px;
+.nav-menu-item:hover {
     color: #5D5FEF !important;
     background: #EEEFFF;
     border-radius: 5px;
-    padding: 3px 16px;
+    /* padding: 0px 16px; */
 }
 
 .result {
@@ -156,4 +153,10 @@ body {
     top: 10px;
     right: 0;
     color: var(--blue-color);
+}
+
+
+.modal-header {
+    background: var(--blue-color) !important;
+    color: #F6F6F7 !important;
 }
